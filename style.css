@@ -2,6 +2,7 @@ body {
     padding:0;
     margin:0;
     max-width: 500px;
+    background-color: #2A2C29;
 }
 
 .container {
@@ -23,20 +24,20 @@ body {
     /* background:rgb(245, 245, 245);*/
     border-radius:30%;
     /* box-shadow: 0 5px 15px -5px #00000070;*/
-    color:#000000;
+    color:rgb(153, 146, 43);
     overflow: hidden;
     position: relative;
 }
 
 .btn i{
     line-height:70px;
-    font-size:40px;
+    font-size:30px;
     transition: 0.2s;
 }
 
 .btn:hover i{
     transform: scale(1.4);
-    color:#8b2424;
+    color:#fef254;
 }
 
 .social {
