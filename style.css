@@ -1,0 +1,51 @@
+body {
+    padding:0;
+    margin:0;
+    max-width: 500px;
+}
+
+.container {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.logo img{
+    width:500px;
+}
+
+.btn {
+    display: inline-block;
+    width:80px;
+    height:80px;
+    /* background:rgb(245, 245, 245);*/
+    border-radius:30%;
+    /* box-shadow: 0 5px 15px -5px #00000070;*/
+    color:#000000;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn i{
+    line-height:70px;
+    font-size:40px;
+    transition: 0.2s;
+}
+
+.btn:hover i{
+    transform: scale(1.4);
+    color:#8b2424;
+}
+
+.social {
+    padding-top:20px;
+}
+
+@media (max-width: 500px) {
+    .logo img{
+        width:100%;
+    }
+
+}
