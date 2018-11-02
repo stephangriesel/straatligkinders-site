@@ -3,9 +3,12 @@ body {
     margin:0;
     max-width: 500px;
     background-color: #2A2C29;
+    background: url('bg.jpg');
+    background-size: cover;
 }
 
 .container {
+    
     position: absolute;
     top:50%;
     transform: translateY(-50%);
